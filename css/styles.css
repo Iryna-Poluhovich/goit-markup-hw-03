@@ -20,6 +20,8 @@ a{
 
 img{
     display: block;
+    min-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -199,26 +201,48 @@ display: flex;
         color: #2e2f42;
         text-align: center;
         text-transform: capitalize;
+        padding-top: 120px;
 }
 
+.team-menu{
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    width: calc(100% - 24px * 3) / 4;
+}
 .team-img {
     background-color: #FFFFFF;
 }
 
-.team-photo {}
+.team-form{
+border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+}
+.team-photo {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
 
 .team-img-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    padding-right: 49px;
+    padding-left: 49px;
+    margin-bottom: 8px;
+}
 
 .team-img-text {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-right: 52px;
+    padding-left: 52px;
+    margin-bottom: 32px;    
    }
 
         .portfolio {}
@@ -231,8 +255,15 @@ display: flex;
             color: #2e2f42;
             text-transform: capitalize;
             text-align: center;
+            padding-top: 120px;
+            padding-bottom: 72px;
         }
-    
+    .portfolio-menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% - 24px * 2) / 3;
+      gap: 24px 48px; 
+              }
         .portfolio-list {}
 
         .portfolio-img {}
