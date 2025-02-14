@@ -135,15 +135,15 @@ display: flex;
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
+    max-width: 496px;
     margin-bottom: 48px;
 }
 
-.title-content {
+ .title-content {
     display: block;
-        padding: 188px 0;
-        max-width: 496px;
-         justify-content: center;
-}
+    padding: 188px 0;
+    justify-content: center;
+    }
 
 .title-btn {
     background: #4d5ae5;
@@ -186,6 +186,7 @@ display: flex;
             clip: rect(0 0 0 0);
             overflow: hidden;       
         }
+
 .benefits-list {
     display: flex;
     width: calc(100% - 72px) / 4;
@@ -195,7 +196,8 @@ display: flex;
             justify-content: flex-start;
             flex-direction: column;
             gap: 8px;
-}
+        }
+
 
 .benefits-name {
     font-weight: 500;
@@ -203,8 +205,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-  
-        }
+          }
 
 .benefits-text {
     font-weight: 400;
@@ -268,7 +269,9 @@ border-bottom: 1px solid #e7e9fc;
     margin-bottom: 32px;    
    }
 
-        .portfolio {}
+        .portfolio {
+            padding-top: 120px;
+        }
     
         .portfolio-name {
             font-weight: 700;
@@ -278,7 +281,6 @@ border-bottom: 1px solid #e7e9fc;
             color: #2e2f42;
             text-transform: capitalize;
             text-align: center;
-            padding-top: 120px;
             margin-bottom: 72px;
         }
     .portfolio-menu{
@@ -287,7 +289,7 @@ border-bottom: 1px solid #e7e9fc;
         column-gap: 24px;
         row-gap: 48px;
         padding-top: 120px;
-            padding-bottom: 120px;
+        padding-bottom: 120px;
               }
         .portfolio-list {
             width: calc(100% - 48px) / 3;
@@ -322,6 +324,7 @@ border-bottom: 1px solid #e7e9fc;
     
            .footer {
             background-color: #2e2f42;
+            padding: 100px 0;
            }
         
            .footer-logo {
@@ -347,6 +350,6 @@ border-bottom: 1px solid #e7e9fc;
            }
 
            .logo-footer{ 
-            padding: 100px 0;
             margin-bottom: 16px;
+            display: inline-block;
            }
