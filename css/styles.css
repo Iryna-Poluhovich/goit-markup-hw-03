@@ -35,10 +35,7 @@ img{
     border-bottom: 1px solid #e7e9fc;
    }
 
-   .header-logo{
-    display: flex;
-    gap: 40px;
-   }
+   
   .header-nav {
     display: flex;
     align-items: center;
@@ -55,7 +52,7 @@ img{
         color: #4d5ae5;
         padding-top: 25px;
         padding-bottom: 26px;
-        margin-right: 76px;
+       
        }
 
 .logo-part {
@@ -69,12 +66,17 @@ img{
         padding-top: 25px;
         padding-bottom: 26px;
       }
+
+      .logo-menu{
+margin-right: 76px;
+      }
 .nav-list{
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: row;
-                }
+         gap: 40px;       
+    }
 
 
 .nav-item{
