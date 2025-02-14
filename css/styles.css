@@ -133,7 +133,7 @@ display: flex;
 }
 .title {
        background-color: #2e2f42;
-    
+    padding: 188px 0;
 }
 
 .title-name {
@@ -150,8 +150,7 @@ display: flex;
  .title-content {
     display: block;
     justify-content: center;
-    padding: 188px 0;
-    }
+       }
 
 .title-btn {
     background: #4d5ae5;
@@ -182,19 +181,20 @@ padding: 120px 0;
 .benefits {
     display: flex;
     gap: 24px;
+    width: calc(100% - 72px) / 4;
         }
 
-        .visually-hidden{
-            position: absolute;
-                width: 1px;
-                height: 1px;
-                padding: 0;
-                margin: -1px;
-                overflow: hidden;
-                clip: rect(0, 0, 0, 0);
-                border: 0;
-                white-space: nowrap;
-        }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
 
 .benefits-list {
     display: flex;
@@ -204,7 +204,6 @@ padding: 120px 0;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc(100% - 72px) / 4;
         }
 
 
@@ -244,11 +243,11 @@ padding: 120px 0;
 .team-menu{
     display: flex;
      width: calc(100% - 24px * 3) / 4;
-    border-radius: 0px 0px 4px 4px;
-    gap: 24px;
+     gap: 24px;
 }
 .team-img {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     
 }
 
@@ -284,6 +283,7 @@ border-bottom: 1px solid #e7e9fc;
 
         .portfolio {
             padding-top: 120px;
+            padding-bottom: 120px;
         }
     
         .portfolio-name {
