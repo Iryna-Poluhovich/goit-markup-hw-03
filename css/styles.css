@@ -126,6 +126,7 @@ display: flex;
 }
 .title {
        background-color: #2e2f42;
+    padding: 188px 0
 }
 
 .title-name {
@@ -141,7 +142,6 @@ display: flex;
 
  .title-content {
     display: block;
-    padding: 188px 0;
     justify-content: center;
     }
 
@@ -168,10 +168,13 @@ display: flex;
     background-color: #404bbf;
 }
 
+.benefits-item{
+padding: 120px 0;
+}
 .benefits {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
+    width: calc(100% - 72px) / 4;
     }
 
         .visually-hidden{
@@ -189,13 +192,12 @@ display: flex;
 
 .benefits-list {
     display: flex;
-    width: calc(100% - 72px) / 4;
-        padding-top: 120px;
-        padding-bottom: 120px;
-           align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: column;
-            gap: 8px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
         }
 
 
@@ -205,6 +207,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
           }
 
 .benefits-text {
