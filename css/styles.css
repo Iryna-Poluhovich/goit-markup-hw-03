@@ -184,6 +184,7 @@ padding: 120px 0;
 .benefits {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
       }
 
 .visually-hidden {
@@ -207,8 +208,7 @@ padding: 120px 0;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
-            }
+   }
 
 
 .benefits-name {
