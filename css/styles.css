@@ -200,9 +200,6 @@ padding: 120px 0;
           }
 
 .benefits-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    gap: 8px;
     width: calc(100% - 72px) / 4;
    }
 
