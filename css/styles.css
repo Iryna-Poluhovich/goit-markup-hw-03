@@ -181,10 +181,6 @@ display: flex;
 .benefits-item{
 padding: 120px 0;
 }
-.benefits {
-    display: flex;
-     gap: 24px;
-          }
 
 .visually-hidden {
     position: absolute;
@@ -196,14 +192,18 @@ padding: 120px 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+    overflow: hidden;}
+
+.benefits {
+    display: flex;
+     gap: 24px;
+          }
 
 .benefits-list {
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 8px;
-    width: calc(100% - 72px)/4;
+    width: calc((100% - 72px) / 4);
    }
 
 
