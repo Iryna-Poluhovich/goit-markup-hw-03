@@ -200,7 +200,6 @@ padding: 120px 0;
 }
 
 .benefits-list {
-    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
     align-items: flex-start;
