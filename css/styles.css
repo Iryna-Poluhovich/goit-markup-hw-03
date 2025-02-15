@@ -76,12 +76,11 @@ img{
         justify-content: flex-start;
         flex-direction: row;
          gap: 40px;     
-        padding: 24px 0;
-            }
+                    }
 
 
 .nav-item{
-
+padding: 24px 0;
 }
  
  .nav-link {
@@ -184,7 +183,7 @@ padding: 120px 0;
 .benefits {
     display: flex;
     gap: 24px;
-           }
+    width: calc((100% - 72px) / 4);       }
 
 .visually-hidden {
     position: absolute;
@@ -207,8 +206,7 @@ padding: 120px 0;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
-        }
+            }
 
 
 .benefits-name {
