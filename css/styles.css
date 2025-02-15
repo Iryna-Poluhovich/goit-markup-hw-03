@@ -12,6 +12,7 @@ p, h1, h2, h3, h4, h5, h6{
 ul, ol {
     list-style-type: none;
     margin: 0;
+    padding-left: 0;
 }
 
 a{
@@ -200,7 +201,7 @@ padding: 120px 0;
           }
 
 .benefits-list {
-    width: calc((100% - 72px) / 4);
+    width: calc(100% - 72px) / 4;
    }
 
 
