@@ -136,8 +136,9 @@ display: flex;
     color: #404bbf;
 }
 .title {
-       background-color: #2e2f42;
+    background-color: #2e2f42;
     padding: 188px 0;
+   
 }
 
 .title-name {
@@ -149,12 +150,14 @@ display: flex;
     text-align: center;
     max-width: 496px;
     margin-bottom: 48px;
+    margin-right: auto;
+        margin-left: auto;
 }
 
  .title-content {
     display: block;
     justify-content: center;
-       }
+           }
 
 .title-btn {
     background: #4d5ae5;
@@ -172,6 +175,8 @@ display: flex;
     display: block;
     height: 56px;
     border: none;
+    margin-right: auto;
+        margin-left: auto;
   }
 
      
@@ -219,8 +224,7 @@ padding: 120px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-}
+    }
 .team {
     background: #f4f4fd;
     padding: 120px 0;
@@ -266,7 +270,6 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
     color: #2e2f42;
    text-align: center;
-    padding-top: 32px;
     margin-bottom: 8px;
     }
 
@@ -276,8 +279,7 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 32px;    
-   }
+    }
 
         .portfolio {
             padding-top: 120px;
@@ -299,9 +301,7 @@ border-bottom: 1px solid #e7e9fc;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        padding-top: 120px;
-        padding-bottom: 120px;
-              }
+                      }
         .portfolio-list {
             width: calc(100% - 48px) / 3;
             
@@ -335,8 +335,7 @@ border-bottom: 1px solid #e7e9fc;
     
            .footer {
             background-color: #2e2f42;
-            padding: 100px 0;
-           }
+                       }
         
            .footer-logo {
             font-family: "Raleway", sans-serif;
@@ -355,10 +354,8 @@ border-bottom: 1px solid #e7e9fc;
                 letter-spacing: 0.02em;
                 color: #f4f4fd;
                 display: block;
-                padding-bottom: 100px;
-                padding-left: 15px;
-                padding-right: 850px;
-           }
+                max-width: 264px;
+                        }
 
            .logo-footer{ 
             margin-bottom: 16px;
